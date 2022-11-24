@@ -15,22 +15,41 @@ type Props = {
 
 const PostPreview = ({ title, coverImage, excerpt, slug }: Props) => {
   return (
-    <div>
-      <div className="mb-5">
-        <CoverImage slug={slug} title={title} src={coverImage} />
+    // thin rows containing the country nane, flag, and tax rate
+    <div className="flex flex-row items-center justify-between w-full h-16 border-b border-gray-200">
+      <div className="flex flex-row items-center justify-start w-1/2">
+        <div className="flex flex-row items-center justify-start w-1/2">
+          <img className="w-8 h-8 rounded-full" />
+        </div>
+        <div className="flex flex-row items-center justify-start w-1/2">
+          <h3 className="text-lg font-medium leading-6 text-gray-900">
+            {excerpt}
+          </h3>
+        </div>
       </div>
-      <h3 className="text-3xl mb-3 leading-snug">
-        <Link
-          as={`/posts/${slug}`}
-          href="/posts/[slug]"
-          className="hover:underline"
-        >
-          {title}
-        </Link>
-      </h3>
-
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+      <div className="flex flex-row items-center justify-center w-1/2">
+        <div className="flex flex-row items-center justify-center w-1/2">
+          <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+        </div>
+      </div>
     </div>
+
+    // <div>
+    //   <div className="mb-5">
+    //     <CoverImage slug={slug} title={title} src={coverImage} />
+    //   </div>
+    //   <h3 className="text-3xl mb-3 leading-snug">
+    //     <Link
+    //       as={`/posts/${slug}`}
+    //       href="/posts/[slug]"
+    //       className="hover:underline"
+    //     >
+    //       {title}
+    //     </Link>
+    //   </h3>
+
+    //   <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+    // </div>
   );
 };
 
