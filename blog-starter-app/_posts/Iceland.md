@@ -2,7 +2,7 @@
 country: 'Iceland'
 taxrate: '24%'
 minimumSpend: '6000 ISK'
-flag:
+flag: '🇮🇸'
 timetoclaim:
 exemptions:
 restrictions: 'Maximum purchase amount is 100,000 ISK'
