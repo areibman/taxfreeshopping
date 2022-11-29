@@ -1,10 +1,10 @@
 ---
 country: 'Slovakia'
-taxrate:
-minimumSpend:
-flag:
-timetoclaim:
-exemptions:
+taxrate: '20%'
+minimumSpend: '175€'
+flag: '🇸🇰'
+timetoclaim: '90 days after purchase'
+exemptions: 'Fuel'
 restrictions:
 checkInLuggage:
 carryOnLuggage:

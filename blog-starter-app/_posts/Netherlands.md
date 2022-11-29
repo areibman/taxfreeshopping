@@ -1,10 +1,11 @@
 ---
 country: 'Netherlands'
-taxrate:
-minimumSpend:
-flag:
+taxrate: '21%'
+minimumSpend: '50€'
+flag: '🇳🇱'
 timetoclaim:
-exemptions:
+exemptions: 'Cars, boats, motorcycles, campers, caravans and trailers more than 750 kg total weight;
+Food, drink, tobacco goods, goods which are designed to be fitted permanently to real estate'
 restrictions:
 checkInLuggage:
 carryOnLuggage:

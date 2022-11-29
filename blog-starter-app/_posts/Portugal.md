@@ -1,8 +1,8 @@
 ---
 country: 'Portugal'
-taxrate:
-minimumSpend:
-flag:
+taxrate: '23%'
+minimumSpend: '50€'
+flag: '🇵🇹'
 timetoclaim:
 exemptions:
 restrictions:
