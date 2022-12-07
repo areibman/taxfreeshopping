@@ -1,17 +1,17 @@
 import type Author from "./author";
 
-export type PostType = {
-  slug: string;
-  title: string;
-  date: string;
-  coverImage: string;
-  author: Author;
-  excerpt: string;
-  ogImage: {
-    url: string;
-  };
-  content: string;
-};
+// export type PostType = {
+//   slug: string;
+//   title: string;
+//   date: string;
+//   coverImage: string;
+//   author: Author;
+//   excerpt: string;
+//   ogImage: {
+//     url: string;
+//   };
+//   content: string;
+// };
 
 export type CountryListingType = {
   country: string;
@@ -23,4 +23,5 @@ export type CountryListingType = {
   restrictions: string;
   checkInLuggage: string;
   carryOnLuggage: string;
+  slug: string;
 };

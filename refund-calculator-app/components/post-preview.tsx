@@ -3,18 +3,16 @@ import DateFormatter from "./date-formatter";
 import CoverImage from "./cover-image";
 import Link from "next/link";
 import type Author from "../interfaces/author";
+import { CountryListingType } from "../interfaces/post";
 
 type Props = {
-  slug: string;
-  key: string;
   country: string;
   taxrate: string;
   minimumSpend: string;
   flag: string;
-  excerpt: string;
 };
 
-const PostPreview = ({ country, flag, taxrate }: Props) => {
+const PostPreview = ({ country, taxrate, minimumSpend, flag }: Props) => {
   return (
     // thin rows containing the country nane, flag, and tax rate
     <div className="flex flex-row items-center justify-between w-full h-16 border-b border-gray-200">

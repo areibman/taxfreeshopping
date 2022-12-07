@@ -1,5 +1,5 @@
 import PostPreview from "./post-preview";
-import type { PostType, CountryListingType } from "../interfaces/post";
+import type { CountryListingType } from "../interfaces/post";
 
 type Props = {
   posts: CountryListingType[];
@@ -15,7 +15,6 @@ const CountriesPages = ({ posts }: Props) => {
             taxrate={post.taxrate}
             minimumSpend={post.minimumSpend}
             flag={post.flag}
-            excerpt={post.excerpt}
           />
         ))}
       </div>

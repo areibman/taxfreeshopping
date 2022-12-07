@@ -10,12 +10,11 @@ import PostTitle from "../../components/post-title";
 import Head from "next/head";
 import { CMS_NAME } from "../../lib/constants";
 import markdownToHtml from "../../lib/markdownToHtml";
-import type { PostType } from "../../interfaces/post";
 import type { CountryListingType } from "../../interfaces/post";
 
 type Props = {
-  post: PostType;
-  morePosts: PostType[];
+  post: CountryListingType;
+  morePosts: CountryListingType[];
   preview?: boolean;
 };
 
@@ -32,7 +31,7 @@ export default function Post({ post, morePosts, preview }: Props) {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mb-32">
+            {/* <article className="mb-32">
               <Head>
                 <title>{post.title}</title>
                 <meta property="og:image" content={post.ogImage.url} />
@@ -44,7 +43,7 @@ export default function Post({ post, morePosts, preview }: Props) {
                 author={post.author}
               />
               <PostBody content={post.content} />
-            </article>
+            </article> */}
           </>
         )}
       </Container>
