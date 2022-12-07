@@ -5,15 +5,16 @@ import Link from "next/link";
 import type Author from "../interfaces/author";
 
 type Props = {
-  title: string;
-  coverImage: string;
-  date: string;
-  excerpt: string;
-  author: Author;
   slug: string;
+  key: string;
+  country: string;
+  taxrate: string;
+  minimumSpend: string;
+  flag: string;
+  excerpt: string;
 };
 
-const PostPreview = ({ title, coverImage, excerpt, slug }: Props) => {
+const PostPreview = ({ country, flag, taxrate }: Props) => {
   return (
     // thin rows containing the country nane, flag, and tax rate
     <div className="flex flex-row items-center justify-between w-full h-16 border-b border-gray-200">
@@ -23,13 +24,13 @@ const PostPreview = ({ title, coverImage, excerpt, slug }: Props) => {
         </div>
         <div className="flex flex-row items-center justify-start w-1/2">
           <h3 className="text-lg font-medium leading-6 text-gray-900">
-            {excerpt}
+            {flag} {country}
           </h3>
         </div>
       </div>
       <div className="flex flex-row items-center justify-center w-1/2">
         <div className="flex flex-row items-center justify-center w-1/2">
-          <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+          <p className="text-lg leading-relaxed mb-4">{taxrate}</p>
         </div>
       </div>
     </div>

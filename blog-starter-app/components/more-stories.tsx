@@ -1,8 +1,8 @@
 import PostPreview from "./post-preview";
-import type Post from "../interfaces/post";
+import type { PostType, CountryListingType } from "../interfaces/post";
 
 type Props = {
-  posts: Post[];
+  posts: CountryListingType[];
 };
 
 const CountriesPages = ({ posts }: Props) => {
@@ -11,12 +11,10 @@ const CountriesPages = ({ posts }: Props) => {
       <div className="grid">
         {posts.map((post) => (
           <PostPreview
-            key={post.slug}
-            title={post.title}
-            coverImage={post.coverImage}
-            date={post.date}
-            author={post.author}
-            slug={post.slug}
+            country={post.country}
+            taxrate={post.taxrate}
+            minimumSpend={post.minimumSpend}
+            flag={post.flag}
             excerpt={post.excerpt}
           />
         ))}

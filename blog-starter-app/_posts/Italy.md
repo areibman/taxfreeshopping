@@ -8,4 +8,5 @@ exemptions: 'Private transportation goods and equipment'
 restrictions:
 checkInLuggage:
 carryOnLuggage:
+excerpt: hello
 ---
