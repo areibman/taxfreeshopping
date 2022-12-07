@@ -43,15 +43,15 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
 ```bash
-npx create-next-app --example blog-starter blog-starter-app
+npx create-next-app --example blog-starter refund-calculator-app
 ```
 
 ```bash
-yarn create next-app --example blog-starter blog-starter-app
+yarn create next-app --example blog-starter refund-calculator-app
 ```
 
 ```bash
-pnpm create next-app --example blog-starter blog-starter-app
+pnpm create next-app --example blog-starter refund-calculator-app
 ```
 
 Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
