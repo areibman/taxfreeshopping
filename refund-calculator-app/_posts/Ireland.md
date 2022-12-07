@@ -1,7 +1,8 @@
 ---
 country: 'Ireland'
 taxrate: '23%'
-minimumSpend: '75€'
+minimumSpend: 75
+currency: '€'
 flag: '🇮🇪'
 timetoclaim: '90 days after purchase'
 exemptions:

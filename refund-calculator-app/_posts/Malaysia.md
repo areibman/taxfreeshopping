@@ -1,7 +1,8 @@
 ---
 country: 'Malaysia'
 taxrate: '6%'
-minimumSpend: '300 MYR'
+minimumSpend: 300
+currency: 'MYR'
 flag: '🇲🇾'
 timetoclaim: '90 days after purchase'
 exemptions: 'Food, Tobacco, Medicines, Gemstones, Means of transport for private use, Propriety cultural objects'

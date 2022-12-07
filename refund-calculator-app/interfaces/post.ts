@@ -16,7 +16,8 @@ import type Author from "./author";
 export type CountryListingType = {
   country: string;
   taxrate: string;
-  minimumSpend: string;
+  minimumSpend: number;
+  currency: string;
   flag: string;
   timetoclaim: Author;
   exemptions: string;

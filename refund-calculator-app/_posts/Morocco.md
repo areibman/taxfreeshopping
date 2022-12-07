@@ -1,7 +1,8 @@
 ---
 country: 'Morocco'
 taxrate: '20%'
-minimumSpend: '2000 MAD'
+minimumSpend: 2000
+currency: 'MAD'
 flag: '🇲🇦'
 timetoclaim:
 exemptions: 'Food, Tobacco, Medicines, Gemstones, Means of transport for private use, Propriety cultural objects'

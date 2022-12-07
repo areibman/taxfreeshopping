@@ -1,7 +1,8 @@
 ---
 country: 'Greece'
 taxrate: '24%'
-minimumSpend: '50€'
+minimumSpend: 50
+currency: '€'
 flag:
 timetoclaim:
 exemptions: 'Alcohol & food, lubricants for ships'

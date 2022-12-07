@@ -14,6 +14,7 @@ const CountriesPages = ({ posts }: Props) => {
             country={post.country}
             taxrate={post.taxrate}
             minimumSpend={post.minimumSpend}
+            currency={post.currency}
             flag={post.flag}
           />
         ))}

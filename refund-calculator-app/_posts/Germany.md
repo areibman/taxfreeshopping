@@ -1,7 +1,8 @@
 ---
 country: 'Germany'
 taxrate: '19%'
-minimumSpend: '50€'
+minimumSpend: 50
+currency: '€'
 flag: '🇩🇪'
 timetoclaim: '90 days after purchase'
 exemptions: 'Phones with contracts/SIM cards. Cars or car items (i.e. spare parts)'

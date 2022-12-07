@@ -1,7 +1,8 @@
 ---
 country: 'Latvia'
 taxrate: '21%'
-minimumSpend: '30.26 Ls'
+minimumSpend: 50
+currency: '€'
 flag: '🇱🇻'
 timetoclaim: '90 days after purchase'
 exemptions:

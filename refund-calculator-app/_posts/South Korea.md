@@ -1,7 +1,8 @@
 ---
 country: 'South Korea'
 taxrate: '10%'
-minimumSpend: '30000 Won'
+minimumSpend: 30000
+currency: '₩'
 flag: '🇰🇷'
 timetoclaim:
 exemptions: 'Fuel, mineral oils, alcohol, tobacco'

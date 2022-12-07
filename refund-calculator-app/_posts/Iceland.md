@@ -1,7 +1,8 @@
 ---
 country: 'Iceland'
 taxrate: '24%'
-minimumSpend: '6000 ISK'
+minimumSpend: 6000
+currency: 'ISK'
 flag: '🇮🇸'
 timetoclaim:
 exemptions:

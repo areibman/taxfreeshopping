@@ -1,7 +1,8 @@
 ---
 country: 'Argentina'
 taxrate: '21%'
-minimumSpend: '70 ARS'
+minimumSpend: 70
+currency: 'ARS'
 flag: '🇦🇷'
 timetoclaim: '90 days after purchase'
 exemptions: 'Imported items, petrol, cars'

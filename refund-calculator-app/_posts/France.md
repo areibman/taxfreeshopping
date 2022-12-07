@@ -1,7 +1,8 @@
 ---
 country: 'France'
 taxrate: '20%'
-minimumSpend: '100€'
+minimumSpend: 100
+currency: '€'
 flag: '🇫🇷'
 timetoclaim: '90 days after purchase'
 exemptions: 'None'

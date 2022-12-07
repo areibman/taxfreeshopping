@@ -1,7 +1,8 @@
 ---
 country: 'Turkey'
 taxrate: '18%'
-minimumSpend: '118 TRY'
+minimumSpend: 118
+currency: '₺'
 flag: '🇹🇷'
 timetoclaim: '90 days after purchase'
 exemptions:

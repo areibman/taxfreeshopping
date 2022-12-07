@@ -1,7 +1,8 @@
 ---
 country: 'Estonia'
 taxrate: '20%'
-minimumSpend: 38€
+minimumSpend: 38
+currency: '€'
 flag: '🇪🇪'
 timetoclaim: 90 days after purchase
 exemptions:

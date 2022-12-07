@@ -1,7 +1,8 @@
 ---
 country: 'Slovakia'
 taxrate: '7%'
-minimumSpend: '100 SGD'
+minimumSpend: 100
+currency: '€'
 flag: '🇸🇰'
 timetoclaim: '90 days after purchase'
 exemptions: 'Fuel'

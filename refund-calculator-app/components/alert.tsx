@@ -28,7 +28,16 @@ const Alert = ({ preview }: Props) => {
               to exit preview mode.
             </>
           ) : (
-            <> Automatic VAT refunds with Roam. No paperwork necessary.</>
+            <>
+              Automatic VAT refunds with{" "}
+              <a
+                href="https://www.roam.creditcard/?vr"
+                className="text-decoration: underline"
+              >
+                Roam
+              </a>
+              . No paperwork necessary.
+            </>
           )}
         </div>
       </Container>

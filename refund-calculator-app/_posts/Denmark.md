@@ -1,7 +1,8 @@
 ---
 country: 'Denmark'
 taxrate: '25%'
-minimumSpend: 300,01 DKK
+minimumSpend: 300,01
+currency: 'DKK'
 flag: '🇩🇰'
 timetoclaim: '90 days after purchase'
 exemptions:

@@ -1,7 +1,8 @@
 ---
 country: 'Belgium'
 taxrate: '21%'
-minimumSpend: '125€'
+minimumSpend: 125
+currency: '€'
 flag: '🇧🇪'
 timetoclaim: '90 days after purchase'
 exemptions: 'Tobacco'

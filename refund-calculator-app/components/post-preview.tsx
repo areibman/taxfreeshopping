@@ -8,11 +8,18 @@ import { CountryListingType } from "../interfaces/post";
 type Props = {
   country: string;
   taxrate: string;
-  minimumSpend: string;
+  minimumSpend: number;
+  currency: string;
   flag: string;
 };
 
-const PostPreview = ({ country, taxrate, minimumSpend, flag }: Props) => {
+const PostPreview = ({
+  country,
+  taxrate,
+  minimumSpend,
+  currency,
+  flag,
+}: Props) => {
   return (
     // thin rows containing the country nane, flag, and tax rate
     <div className="flex flex-row items-center justify-between w-full h-16 border-b border-gray-200">
@@ -26,9 +33,17 @@ const PostPreview = ({ country, taxrate, minimumSpend, flag }: Props) => {
           </h3>
         </div>
       </div>
-      <div className="flex flex-row items-center justify-center w-1/2">
-        <div className="flex flex-row items-center justify-center w-1/2">
+      <div className="flex flex-row items-center w-1/2">
+        <div className="flex flex-row items-center w-1/2">
           <p className="text-lg leading-relaxed mb-4">{taxrate}</p>
+        </div>
+      </div>
+      <div className="flex flex-row items-center w-1/2">
+        <div className="flex flex-row items-center w-1/2">
+          <p className="text-lg leading-relaxed mb-4">
+            {minimumSpend.toLocaleString()}
+            {currency}
+          </p>
         </div>
       </div>
     </div>
