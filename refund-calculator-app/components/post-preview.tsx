@@ -25,9 +25,6 @@ const PostPreview = ({
     <div className="flex flex-row items-center justify-between w-full h-16 border-b border-gray-200">
       <div className="flex flex-row items-center justify-start w-1/2">
         <div className="flex flex-row items-center justify-start w-1/2">
-          <img className="w-8 h-8 rounded-full" />
-        </div>
-        <div className="flex flex-row items-center justify-start w-1/2">
           <h3 className="text-lg font-medium leading-6 text-gray-900">
             {flag} {country}
           </h3>
